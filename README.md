@@ -1,1 +1,11 @@
 # SpeechSeparationFRBM
+
+# This folder contains the result of the work: Supervised Monaural Speech Separation based on Fuzzy Deep Neural Networks
+
+# It contains the sample input and output speech files of the algorithm.
+
+Abstract of the work:
+
+Supervised speech separation based on machine learning is a new paradigm for segregating clean speech from background noise. The current work represents a supervised speech separation system based on a robust deep learning method where the pre-training phase of deep belief network (DBN) has been conducted by employing fuzzy restricted Boltzmann machines (FRBM) instead of regular RBM. It has been observed that the performance of FRBM model is superior to that of RBM model particularly when the training data is noisy. Moreover, the constant relationships or parameters in visible units and hidden units of regular RBM certainly impose some restrictions on the representation capability of the RBM and eventually downgrade the performance of the overall system. In order to alleviate this shortcomings and enhance the deep learning capability, the learning algorithm of FRBM  is employed in the proposed deep neural network (DNN) based supervised separation system where the parameters (biases and weights) governing the model are replaced by fuzzy numbers. It has been experimentally demonstrated that the proposed system  can be efficiently trained to estimate different types of targets such as ideal binary mask (IBM), ideal ratio mask (IRM) and phase-sensitive mask (PSM).  In order to achieve more generalization capability in the learning process, the supervised training of the DNN system is conducted by employing a fusion feature set extracted from both the magnitude and the phase spectra of speech signal. To the best of our knowledge, this is the first study which exploits phase based features along with magnitude based features for supervised training in speech separation application. Extensive experimentation have shown that the proposed speech separation system based on DNN  using FRBM model performs better than the other existing DNN systems (using regular RBM) in terms of various speech quality and intelligibility metrics. 
+
+Authors: Suman Samui, Indrajit Chakrabarti and S. K. Ghosh
